@@ -1,13 +1,13 @@
 # docker-fish-functions
 
-[fish](https://fishshell.com/) functions for selecting Docker images and containers easily using [peco](https://github.com/peco/peco).
+fish functions for selecting Docker images and containers easily using [peco](https://github.com/peco/peco).
 
 # Prerequisites
 
 You need to install:
 
 - [Docker](https://www.docker.com/)
-- [fish shell](https://fishshell.com/)
+- [fish](https://fishshell.com/)
 - [peco](https://github.com/peco/peco)
 
 # Installation
@@ -42,9 +42,8 @@ docker rmi image␣
 
 # Demo
 
-![single_selection](https://github.com/ikoba/docker-fish-function/assets/677561/48772436-e235-45f0-ab65-29d765a713fd)
+![single_selection](https://github.com/ikoba/docker-fish-function/assets/677561/51e916af-ac41-467a-8378-ad0b1aa1406c)
 
 You can also select multiple IMAGE_IDs or CONTAINER_IDs.
 
-![multi_selection](https://github.com/ikoba/docker-fish-function/assets/677561/c9930c23-8f42-4063-9da6-222d7e0ec0f7)
-
+![multiple_selection](https://github.com/ikoba/docker-fish-function/assets/677561/b902a7c1-add6-4d2a-9f7e-8b2da70d26d4)
