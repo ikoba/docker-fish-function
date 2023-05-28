@@ -2,7 +2,7 @@
 
 fish functions for selecting Docker images and containers easily using [peco](https://github.com/peco/peco).
 
-# Prerequisites
+## Prerequisites
 
 You need to install:
 
@@ -10,7 +10,7 @@ You need to install:
 - [fish](https://fishshell.com/)
 - [peco](https://github.com/peco/peco)
 
-# Installation
+## Installation
 
 1. Copy files in "functions" directory to your fish functions directory.
 
@@ -18,9 +18,9 @@ You need to install:
     cp ./functions/* ~/.config/fish/functions/
     ```
 
-2. Copy `abbr` definitions in "config.fish" and paste these to yours.
+2. Copy `abbr` definitions in "config.fish" and paste those to yours.
 
-# Usage
+## Usage
 
 1. Input "image" or "container" in the position for the IMAGE_ID or the CONTAINER_ID in any docker subcommands.
 
@@ -40,10 +40,10 @@ docker rm container␣
 docker rmi image␣
 ```
 
-# Demo
+## Demo
 
-![single_selection](https://github.com/ikoba/docker-fish-function/assets/677561/51e916af-ac41-467a-8378-ad0b1aa1406c)
+![single_selection](https://github.com/ikoba/docker-fish-function/assets/677561/fc8df2af-5efb-49a9-a088-a67f523ba545)
 
 You can also select multiple IMAGE_IDs or CONTAINER_IDs.
 
-![multiple_selection](https://github.com/ikoba/docker-fish-function/assets/677561/b902a7c1-add6-4d2a-9f7e-8b2da70d26d4)
+![multiple_selection](https://github.com/ikoba/docker-fish-function/assets/677561/fbafc1e0-0370-4f14-9e64-e0d96e4f006b)
